@@ -1,0 +1,103 @@
+ 
+
+body{
+    margin: 10px;
+    padding:0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+nav{
+    width: 800px;
+    height: 50px;
+    display: flex;
+    margin-top: 5px;
+    margin-left: 10px;
+     cursor:pointer;
+     justify-content: space-between;
+}
+.snap1{
+    font-weight: bold;
+    font-size: large;
+    margin-right: 50px;
+}
+
+.doll, .dall{
+    text-decoration: none;
+    list-style: none;
+    vertical-align: top;
+    margin-top: 0;
+    font-size: small;
+   } 
+
+.doll  {
+    display: flex;
+    flex-direction:row;
+    flex: 200px 200px 200px 200px; 
+    width: 500px; 
+    gap: 50px;
+    margin-left: 50px;
+    margin-right: 300px;;
+}
+.dall{
+    display: flex;
+    flex-direction:row;
+    flex: 200px 200px 200px 200px; 
+    width: 500; 
+    gap: 50px;
+}
+nav li button{
+    width: 100px;
+    height: 20px;
+    border-radius: 8px;
+    border-color: solid  rgba 248, 241, 241, 0.918;
+    border-width: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top:3px;
+    padding-bottom: 3px;
+    font-size: 10px;
+    color:gray;
+   }
+   .happy{
+    display:flex;
+    width: 900px;
+    height:100px;
+    justify-content: center;
+    margin-left: 100px;
+   }
+   .make{
+    font-size: 80px;
+    font-weight: bold;
+    width: 450px;
+    margin-left: 10px;
+    margin-top: 60px;
+
+   }
+   .get{
+    font-size: 25px;
+    width: 500px;
+    margin-left: 10px;
+   }
+   .more{
+    margin-left:10px;
+    background-color: white;
+    border-radius: 8px;
+     border-width: 1px;
+     border-color: grey;
+     width: 90px;
+     height: 20px;
+     cursor:pointer;
+   }
+   img{
+    display: inline-block;
+    margin-left: 20px;
+    width: 500px;
+    /* max-height: 500px;
+    max-width: 300px; */
+   }
+   footer{
+    margin-top: 550px;
+    margin-left: 50px
+   }
+   
+   
